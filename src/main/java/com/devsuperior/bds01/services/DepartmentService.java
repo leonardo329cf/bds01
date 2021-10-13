@@ -1,4 +1,4 @@
-package com.devsuperior.bds01.resources;
+package com.devsuperior.bds01.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,7 +14,7 @@ import com.devsuperior.bds01.entities.Department;
 import com.devsuperior.bds01.repositories.DepartmentRepository;
 
 @Service
-public class DepartmentResource {
+public class DepartmentService {
 
 	@Autowired
 	private DepartmentRepository repository;
